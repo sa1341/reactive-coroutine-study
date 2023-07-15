@@ -1,0 +1,17 @@
+### Book creation
+POST localhost:8081/api/v1/books
+Content-Type: application/json;
+
+{
+    "titleKorean": "햇님달님",
+    "titleEnglish": "sun and moon",
+    "description": "우솝이화임",
+    "author": "임준영",
+    "isbn": "1",
+    "publishDate": "2023-07-07"
+}
+
+### Book getBook
+GET localhost:8081/api/v1/books/1
+
+
