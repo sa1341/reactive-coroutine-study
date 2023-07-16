@@ -5,6 +5,7 @@ spring:
 
 logging:
   level:
+    com.jean.reactivecoroutinestudy: debug
     org:
       springframework:
         r2dbc: DEBUG

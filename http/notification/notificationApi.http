@@ -1,0 +1,10 @@
+GET http://localhost:8081/api/notifications
+
+###
+POST http://localhost:8081/api/notifications
+Content-Type: application/json
+
+{
+    "type": "follow",
+    "message": "새로운 선물이 왔어요!"
+}
