@@ -3,12 +3,12 @@ POST localhost:8081/api/v1/books
 Content-Type: application/json;
 
 {
-    "titleKorean": "햇님달님",
-    "titleEnglish": "sun and moon",
+    "title_korean": "햇님달님",
+    "title_english": "sun and moon",
     "description": "우솝이화임",
     "author": "임준영",
     "isbn": "1",
-    "publishDate": "2023-07-07"
+    "publish_date": "20230707"
 }
 
 ### Book getBook
