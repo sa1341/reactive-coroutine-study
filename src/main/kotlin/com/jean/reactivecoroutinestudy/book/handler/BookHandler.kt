@@ -13,7 +13,6 @@ import org.springframework.web.reactive.function.server.ServerRequest
 import org.springframework.web.reactive.function.server.ServerResponse
 import reactor.core.publisher.Mono
 import java.net.URI
-import java.util.concurrent.TimeoutException
 
 private val log = KotlinLogging.logger {}
 
