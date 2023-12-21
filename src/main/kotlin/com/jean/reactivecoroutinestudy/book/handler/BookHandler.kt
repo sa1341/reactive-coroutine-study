@@ -2,7 +2,6 @@ package com.jean.reactivecoroutinestudy.book.handler
 
 import com.jean.reactivecoroutinestudy.book.dto.Post
 import com.jean.reactivecoroutinestudy.book.service.BookService
-import com.jean.reactivecoroutinestudy.global.error.BookNotFoundException
 import com.jean.reactivecoroutinestudy.global.error.BusinessException
 import com.jean.reactivecoroutinestudy.global.error.ErrorCode
 import com.jean.reactivecoroutinestudy.global.error.ErrorResponse
