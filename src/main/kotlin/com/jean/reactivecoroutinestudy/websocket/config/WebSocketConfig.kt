@@ -23,6 +23,7 @@ class WebSocketConfig {
         val webSocketService = object : HandshakeWebSocketService() {
             override fun handleRequest(exchange: ServerWebExchange, handler: WebSocketHandler): Mono<Void> {
                 val iam = exchange.request.headers.getFirst("X-I-AM")
+                println("##### iam ######: $iam")
 
                 if (iam == null) {
                     exchange.response.statusCode = HttpStatus.UNAUTHORIZED
